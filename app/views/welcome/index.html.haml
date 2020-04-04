@@ -1,1 +1,20 @@
-%h1 haml test
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p  Your Life's work. Organized always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides
+        trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science,
+        technology and ...
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
